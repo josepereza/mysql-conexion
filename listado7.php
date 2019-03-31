@@ -12,7 +12,7 @@
 <?php
 
 try{
-$datos=new PDO ( "mysql:host=localhost; dbname=FlughafenDB;charset=utf8", "root", "3266root");
+$datos=new PDO ( "mysql:host=localhost; dbname=FlughafenDB;charset=utf8", "root", "123456");
 
 $query = $datos->query ("select * from buchung limit 100");
         while ($fila = $query -> fetch(PDO::FETCH_OBJ)) {
@@ -24,7 +24,7 @@ echo "Error: ".$e;
 
 
 
-$datos2=new PDO ( "mysql:host=localhost; dbname=ejemplo;charset=utf8", "root", "3266root");
+$datos2=new PDO ( "mysql:host=localhost; dbname=ejemplo;charset=utf8", "root", "123456");
 
 
 function leerDatosHaciaAdelante($gbd) {
