@@ -1,5 +1,5 @@
 <?php
-$datos=new PDO('mysql:host=localhost; dbname=ejemplo', 'root', '3266root');
+$datos=new PDO('mysql:host=localhost; dbname=ejemplo', 'root', '123456root');
 ?>
 <!doctype html>
 <html lang="en">
